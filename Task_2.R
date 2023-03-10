@@ -38,8 +38,6 @@ samp = Multivariate_normal_sample(1e4,c(2,3),matrix(c(1,0,0,1),nrow =2))
 library(plotly)
 x = samp[,1]
 y = samp[,2]
-
-## I can show some visualization for bivariate distribution
 plot(x,y) 
 
 
